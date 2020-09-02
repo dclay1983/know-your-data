@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/dclay1983/know-your-data/issues"
   },
-  "homepage": "https://github.com/dclay1983/know-your-data#readme"
+  "homepage": "https://github.com/dclay1983/know-your-data#readme",
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
 }
