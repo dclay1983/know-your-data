@@ -7,7 +7,6 @@ export class LinkedList {
     this.tail = null;
   }
 
-  
   addHead(data: any): LinkedList {
     this.head = new LinkedListNode(data, this.head);
     if (this.head.next === null) {
@@ -15,7 +14,7 @@ export class LinkedList {
     }
     return this;
   }
-  
+
   addTail(data: any): LinkedList {
     const node: LinkedListNode = new LinkedListNode(data);
     if (this.tail) {
@@ -26,7 +25,7 @@ export class LinkedList {
     }
     return this;
   }
-  
+
   removeHead(): any {
     const node: LinkedListNode | null = this.head;
     if (this.head) {
@@ -37,7 +36,7 @@ export class LinkedList {
     }
     return node?.data || null;
   }
-  
+
   removeTail(): any {
     const node = this.tail;
     if (this.tail && this.head) {
@@ -54,7 +53,7 @@ export class LinkedList {
     }
     return node?.data || null;
   }
-  
+
   isEmpty(): boolean {
     return !this.head;
   }

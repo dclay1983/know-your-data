@@ -1,6 +1,6 @@
 {
   "name": "know-your-data",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Comprehensive data structure class focused on optimal performance.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
