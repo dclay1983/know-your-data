@@ -1,5 +1,5 @@
 import Data from '../index';
-import { Graph } from '../graph/index';
+import { Graph } from '../index';
 //import { LinkedList } from '../linkedlist/LinkedList';
 import { LinkedList } from '../index';
 
